@@ -16,7 +16,7 @@ const MainSection = () => {
             <div className="lg:pr-8 w-2/6 lg:w-full pb-4">
               <img
                 className="w-full rounded-full p-1 ring-2 ring-blue-400 dark:ring-gray-500 shadow-lg"
-                src="/src/assets/image/dipu.jpg"
+                src="/public/image/dipu.jpg"
                 alt="Dipu"
               />
             </div>
