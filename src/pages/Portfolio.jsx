@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 
-import MainSection from '../components/MainSection';
+import MainSection from '../components/main/MainSection';
 import Footer from '../components/Footer';
 
 const Portfolio = () => {

@@ -1,7 +1,10 @@
 import React from "react";
-import QualificationInfo from "./QualificationInfo";
-import HeaderTag from "./HeaderTag";
-import TechSkills from "./TechSkills";
+import HeaderTag from "../HeaderTag";
+import QualificationInfo from "../QualificationInfo";
+import TechSkills from "../TechSkills";
+import RecentWorks from "../RecentWorks";
+
+
 
 const MainSection = () => {
   return (
@@ -185,15 +188,16 @@ const MainSection = () => {
               {/* Recent Works */}
               <div className="mb-16">
                 <div className="flex items-center mb-4">
-                  <h1 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+                  <h1 className="text-2xl font-semibold text-gray-800 ">
                     Recent works
                   </h1>
                 </div>
                 <div
                   id="recent-works"
-                  className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-3"
+                 
                 >
                   {/* Recent works here */}
+                  <RecentWorks></RecentWorks>
                 </div>
               </div>
             </div>
