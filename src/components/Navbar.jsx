@@ -46,6 +46,11 @@ const Navbar = () => {
                   RecentWork
                 </a>
               </li>
+              <li>
+                <a href="https://github.com/dipu-37">
+                Resume
+                </a>
+              </li>
              
             </ul>
           </div>
