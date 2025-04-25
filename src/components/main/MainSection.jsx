@@ -22,10 +22,10 @@ const MainSection = () => {
             </div>
 
             {/* Main content right */}
-            <div>
+            <div >
               {/* Header area */}
               <div className="header mb-16">
-                <h1 className="text-2xl font-bold ">Razibul Hasan Dipu</h1>
+                <h1  className="text-2xl font-bold text-black">Razibul Hasan Dipu</h1>
                 <p className="text-sm text-gray-700 dark:text-gray-500">
                   Analytical, self-motivating and confident.
                 </p>
@@ -173,12 +173,12 @@ const MainSection = () => {
 
               {/* Tech Skills */}
               <div className="mb-16">
-                <div className="flex items-center mb-6">
+                <div className="">
                   <h1 className="text-2xl font-semibold text-zinc-800 ">
                     Tech Skills
                   </h1>
                 </div>
-                <div>
+                <div id="skills">
                   {/* Tech Skills here */}
                   <TechSkills></TechSkills>
                 </div>
@@ -193,7 +193,7 @@ const MainSection = () => {
                   </h1>
                 </div>
                 <div
-                  id="recent-works"
+                  id="recentWork"
                  
                 >
                   {/* Recent works here */}

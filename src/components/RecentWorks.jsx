@@ -14,14 +14,14 @@ const RecentWorks = () => {
 
           <div className="p-3 border-t border-gray-100 flex flex-col flex-grow">
             <div className="flex-grow">
-              <h5 className="text-xl font-semibold  ">{work.title}</h5>
+              <h5 className="text-xl font-semibold  text-gray-800">{work.title}</h5>
               <p className="font-light dark:text-gray-400">{work.description}</p>
               <div className="my-4 flex flex-wrap">
                 {work.techs.map((tech, idx) => (
                   <button
                     key={idx}
                     type="button"
-                    className=" bg-gray-100 border border-gray-100 hover:bg-gray-50 font-medium rounded-md text-sm px-3.5 py-2 mr-2 mb-2  "
+                    className=" bg-gray-100 border border-gray-100 hover:bg-gray-50 font-medium rounded-md text-sm px-3.5 py-2 mr-2 mb-2  text-gray-400 "
                   >
                     {tech}
                   </button>
@@ -30,7 +30,7 @@ const RecentWorks = () => {
             </div>
 
             <a
-              href="https://github.com/nchdatta/personal-portfolio"
+              href="https://github.com/dipu-37"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100"
